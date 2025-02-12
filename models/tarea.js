@@ -8,8 +8,11 @@ const Tarea = sequelize.define('tarea', {
 //definimos los campos de la tabla que vamos a conectar  
 
 id: {
+    //Aqui mismo tambien podemos poner restrinciones
     type: DataTypes.INTEGER,
-    primaryKey: true
+    primaryKey: true,
+    autoIncrement: true,  // Esto hace que el id sea autoincremental
+
 },
 titulo: {
     type: DataTypes.STRING
