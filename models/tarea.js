@@ -22,3 +22,5 @@ completado:{
 }
 });
 
+//Para exportar al servidor y usarlo
+module.exports = Tarea;
