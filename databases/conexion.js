@@ -2,6 +2,7 @@
 const {Sequelize} = require("sequelize");
 const fs = require('fs');
 const path = require("path");
+const { Json } = require("sequelize/lib/utils");
 
 const configPath = path.join(__dirname,'config.json');
 

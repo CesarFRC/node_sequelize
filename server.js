@@ -24,8 +24,10 @@ sequelize.sync({force:false})
 
 //USO DE EL ROUTER
 app.use(express.json());
-app.use('/tarea' , tarearouter);
+app.use('/tareas' , tarearouter);
 //ACABA AQUI
+
+
 
 //Levantamos el server :D para insomnia 
 app.listen(port, () =>{
